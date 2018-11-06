@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.ninashadzrina.mycounsellor.Activity.SectionB7">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/berry">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="107dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Bahagian B"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="107dp"
+            android:src="@drawable/newlogo"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Kategori Kinestetik"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="5pt"
+            android:text="Tekan YA(Y) pada perkara perkara yang anda setuju dan TIDAK(T) pada perkara perkara yang anda tidak setuju pada ruang yang disediakan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="5pt"
+            android:textStyle="bold"
+            android:text="Notis: Jawapan yang tidak ditekan akan dinilai 0"
+            android:textColor="@color/berry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            >
+
+            <!--Soalan 61-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="61. Saya suka mata pelajaran Pendidikan Jasmani. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb61Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq61"/>
+
+                    <RadioButton
+                        android:id="@+id/rb61T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq61"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--Soalan 62-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="62. Saya mendapat skor yang baik dalam Ujian SEGAK."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb62Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq62"/>
+
+                    <RadioButton
+                        android:id="@+id/rb62T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq62"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 63-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="63. Saya mahir menunggang basikal di lorong yang sempit. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb63Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq63"/>
+
+                    <RadioButton
+                        android:id="@+id/rb63T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq63"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <!--Soalan 64-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="64. Saya suka kerja tangan Kemahiran Hidup. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb64Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq64"/>
+
+                    <RadioButton
+                        android:id="@+id/rb64T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq64"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 65-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="65. Saya boleh mengimbangkan badan dengan berdiri satu kaki."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb65Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq65"/>
+
+                    <RadioButton
+                        android:id="@+id/rb65T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq65"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 66-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="66. Saya suka kerja-kerja melibatkan pergerakan."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb66Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq66"/>
+
+                    <RadioButton
+                        android:id="@+id/rb66T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq66"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 67-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="67. Saya tidak boleh duduk lama tanpa aktiviti."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb67Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq67"/>
+
+                    <RadioButton
+                        android:id="@+id/rb67T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq67"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <!--Soalan 68-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="68. Saya mudah menggoyangkan kaki ketika duduk."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb68Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq68"/>
+
+                    <RadioButton
+                        android:id="@+id/rb68T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq68"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 69-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="69. Saya suka bermain permainan video."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb69Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq69"/>
+
+                    <RadioButton
+                        android:id="@+id/rb69T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq69"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--Soalan 70-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="70. Saya suka melakukan aktiviti fizikal."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb70Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq70"/>
+
+                    <RadioButton
+                        android:id="@+id/rb70T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq70"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <Button
+                android:onClick="btnNextB7"
+                android:layout_width="240dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button1"
+                android:textColor="@color/colorAccent"
+                android:text="Seterusnya" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+

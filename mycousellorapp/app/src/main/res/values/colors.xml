@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a21042</color>
+    <color name="colorPrimaryDark">#1a0a3a</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="milkyWhite">#e4e4e4</color>
+    <color name="berry">#C61684</color>
+    <color name="result">#26b2b9</color>
+    <color name="toolbar">@android:color/holo_red_light</color>
+
+
+
+</resources>

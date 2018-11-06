@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ninashadzrina.mycounsellor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.Home" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionA1" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionA2" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionA3" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionA4" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionB5" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionB6" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionB7" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionB8" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.SectionB9" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.Result" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.ViewExam" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.ViewResult" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.ResultDetails" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.ManageResult" />
+        <activity android:name="com.example.ninashadzrina.mycounsellor.Activity.ExamDetails" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

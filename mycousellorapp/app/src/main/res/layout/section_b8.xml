@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.ninashadzrina.mycounsellor.Activity.SectionB8">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/berry">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="107dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Bahagian B"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="107dp"
+            android:src="@drawable/newlogo"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Kategori Muzikal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="5pt"
+            android:text="Tekan YA(Y) pada perkara perkara yang anda setuju dan TIDAK(T) pada perkara perkara yang anda tidak setuju pada ruang yang disediakan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="5pt"
+            android:textStyle="bold"
+            android:text="Notis: Jawapan yang tidak ditekan akan dinilai 0"
+            android:textColor="@color/berry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            >
+
+            <!--Soalan 71-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="71. Saya boleh mengenali lebih daripada 10 jenis alatan muzik. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb71Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq71"/>
+
+                    <RadioButton
+                        android:id="@+id/rb71T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq71"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--Soalan 72-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="72. Saya rasa seronok mendengar muzik."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb72Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq72"/>
+
+                    <RadioButton
+                        android:id="@+id/rb72T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq72"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 73-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="73. Saya suka mendengar muzik sewaktu belajar. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb73Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq73"/>
+
+                    <RadioButton
+                        android:id="@+id/rb73T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq73"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <!--Soalan 74-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="74. Hobi saya mendengar muzik. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb74Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq74"/>
+
+                    <RadioButton
+                        android:id="@+id/rb74T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq74"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 75-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="75. Saya boleh mengulang kaji pelajaran sambil mendengar lagu."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb75Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq75"/>
+
+                    <RadioButton
+                        android:id="@+id/rb75T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq75"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 76-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="76. Saya dapat mengenali not muzik."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb76Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq76"/>
+
+                    <RadioButton
+                        android:id="@+id/rb76T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq76"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 77-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="77. Saya boleh bermain alat muzik."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb77Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq77"/>
+
+                    <RadioButton
+                        android:id="@+id/rb77T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq77"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <!--Soalan 78-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="78. Saya berbakat dalam bidang muzik."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb78Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq78"/>
+
+                    <RadioButton
+                        android:id="@+id/rb78T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq78"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!--Soalan 79-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="79. Saya mengenali ramai tokoh muzik."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb79Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq79"/>
+
+                    <RadioButton
+                        android:id="@+id/rb79T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq79"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--Soalan 80-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="80. Saya boleh menamakan beberapa orang tokoh muzik tempatan."
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb80Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="YA"
+                        android:onClick="selectAnswerq80"/>
+
+                    <RadioButton
+                        android:id="@+id/rb80T"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/berry"
+                        android:textSize="5pt"
+                        android:text="TIDAK"
+                        android:onClick="selectAnswerq80"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <Button
+                android:onClick="btnNextB8"
+                android:layout_width="240dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button1"
+                android:textColor="@color/colorAccent"
+                android:text="Seterusnya" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+

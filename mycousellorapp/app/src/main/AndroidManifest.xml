@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ninashadzrina.mycounsellor">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Home" />
+        <activity android:name=".Activity.SectionA1" />
+        <activity android:name=".Activity.SectionA2" />
+        <activity android:name=".Activity.SectionA3" />
+        <activity android:name=".Activity.SectionA4" />
+        <activity android:name=".Activity.SectionB5" />
+        <activity android:name=".Activity.SectionB6" />
+        <activity android:name=".Activity.SectionB7" />
+        <activity android:name=".Activity.SectionB8" />
+        <activity android:name=".Activity.SectionB9" />
+        <activity android:name=".Activity.Result" />
+        <activity android:name=".Activity.ViewExam" />
+        <activity android:name=".Activity.ViewResult" />
+        <activity android:name=".Activity.ResultDetails" />
+        <activity android:name=".Activity.ManageResult" />
+        <activity android:name=".Activity.ExamDetails"></activity>
+    </application>
+
+</manifest>

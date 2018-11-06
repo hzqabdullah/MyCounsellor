@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.ninashadzrina.mycounsellor.Activity.Result">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/berry">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="75dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginTop="35dp"
+            android:text="KEPUTUSAN UJIAN"
+            android:textColor="@color/berry"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="107dp"
+            android:src="@drawable/newlogo"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/textviewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:textColor="@color/result"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Linguistik : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="67dp"
+                        android:text="Analisis 1"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Logikal Matematik : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis2"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11.3dp"
+                        android:text="Analisis 2"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Intrapersonal : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="43.7dp"
+                        android:text="Analisis 3"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Ruang Kecerdasan : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:text="Analisis 4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Naturalis : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="69.6dp"
+                        android:text="Analisis 5"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Interpersonal : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="43.9dp"
+                        android:text="Analisis 6"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Kinestetik : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="64.5dp"
+                        android:text="Analisis 7"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Muzikal : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="78.2dp"
+                        android:text="Analisis 8"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kategori Eksistensial : "
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textviewResultAnalisis9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="52.2dp"
+                        android:text="Analisis 9"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/berry"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:onClick="btnSaveResult"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button1"
+            android:textColor="@color/colorAccent"
+            android:text="Tamat"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

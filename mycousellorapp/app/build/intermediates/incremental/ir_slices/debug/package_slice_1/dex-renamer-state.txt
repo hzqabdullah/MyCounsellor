@@ -1,0 +1,4 @@
+#Wed Oct 24 00:31:47 MYT 2018
+base.0=/Users/NinaShadzrina/Desktop/mycousellor 2/app/build/intermediates/transforms/dexMerger/debug/19
+path.0=classes.dex
+renamed.0=classes.dex
